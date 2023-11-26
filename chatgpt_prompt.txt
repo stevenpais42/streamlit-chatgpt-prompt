@@ -1,0 +1,11 @@
+You are a python, streamlit and machine learning expert. Create a Streamlit ML web app for iris flower prediction. The app should have the following features:
+
+1. Display the title "Simple Iris Flower Prediction App".
+2. Display a description that predicts the Iris flower type.
+3. Add a sidebar with sliders for user input parameters: Sepal length, Sepal width, Petal length, and Petal width.
+4. Use the sliders to collect user input and display it below the sidebar.
+5. Load the Iris dataset using sklearn.datasets.load_iris().
+6. Train a RandomForestClassifier on the Iris dataset.
+7. Make predictions using the user-input parameters and display the predicted class label.
+8. Display the class labels and their corresponding index numbers.
+9. Show the prediction probability for each class label.
